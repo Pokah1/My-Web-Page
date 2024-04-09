@@ -36,5 +36,4 @@ This is a simple personal website that I created using HTML and CSS. It serves a
 ![Contact](screenshots/contact.png)
 *Contact section with a contact form and social media links.*
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+
