@@ -1,177 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Potfolio</title>
-    <link rel="stylesheet" href="/form_signup_link/">
-  <link rel="stylesheet" href="/styles.css">
-    </head>
-  <body>
 
-    <main>
-      <section class="side-1"> 
-       <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Potfolio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <main>
+    <section class="side-1">
+      <header>
         <h1 class="animation">Odokwo Edikan</h1>
         <h3>A Front-End Developer</h3>
         <p><span>I build exceptional and accessible digital </span><br>experiences for the web.</p>
         <nav>
           <ul>
-            <li><a href="#biography">About</a></li>
-            <li><a href="#my_goals">Goals</a></li>
-            <li><a href="#signup">Signup</a></li>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#elevator-speech">Elevator Speech</a></li>
           </ul>
         </nav>
         <figure>
-          <img src="/Profile pic.jpeg" alt="This is my Profile Picture">
+          <img src="./assests/Profile pic.jpeg" alt="This is my Profile Picture">
           <figcaption>Odokwo Edikan </figcaption>
         </figure>
-        <aside class="social_media_svgs"> 
-          <a href="https://x.com/sir_pokah?s=21"
-           target="_blank" ><svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              viewBox="0 0 1024 1024"
-              height="1em"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+        <aside class="social_media_svgs">
+          <a href="https://x.com/sir_pokah?s=21" target="_blank"><svg stroke="currentColor" fill="currentColor"
+              stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
               <path
-                d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0 0 75-94 336.64 336.64 0 0 1-108.2 41.2A170.1 170.1 0 0 0 672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 0 0-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 0 1-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 0 1-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z"
-              ></path></svg
-          ></a>
+                d="M928 254.3c-30.6 13.2-63.9 22.7-98.2 26.4a170.1 170.1 0 0 0 75-94 336.64 336.64 0 0 1-108.2 41.2A170.1 170.1 0 0 0 672 174c-94.5 0-170.5 76.6-170.5 170.6 0 13.2 1.6 26.4 4.2 39.1-141.5-7.4-267.7-75-351.6-178.5a169.32 169.32 0 0 0-23.2 86.1c0 59.2 30.1 111.4 76 142.1a172 172 0 0 1-77.1-21.7v2.1c0 82.9 58.6 151.6 136.7 167.4a180.6 180.6 0 0 1-44.9 5.8c-11.1 0-21.6-1.1-32.2-2.6C211 652 273.9 701.1 348.8 702.7c-58.6 45.9-132 72.9-211.7 72.9-14.3 0-27.5-.5-41.2-2.1C171.5 822 261.2 850 357.8 850 671.4 850 843 590.2 843 364.7c0-7.4 0-14.8-.5-22.2 33.2-24.3 62.3-54.4 85.5-88.2z">
+              </path>
+            </svg></a>
           <a href="https://github.com/Pokah1" target="_blank" rel="noopener noreferrer">
-            <svg xmlns="http://www.w3.org/2000/svg"
-             viewBox="0 0 24 24" width="1em" height="1em">
-              <path fill="currentColor" d="M12 0C5.4 0 0 5.4 0 12c0 5.3 3.4 9.8 8.1 11.4.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.4-1.2-1.8-1.2-1.8-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1.9 1.5 2.3 1.1 2.9.9.1-.7.4-1.1.8-1.4-3-.3-6.2-1.5-6.2-6.8 0-1.5.5-2.8 1.3-3.8-.1-.3-.6-1.8.1-3.8 0 0 1.2-.4 3.9 1.5 1.1-.3 2.3-.5 3.5-.5s2.4.2 3.5.5c2.7-1.9 3.9-1.5 3.9-1.5.7 2 .3 3.5.1 3.8.8 1 1.3 2.3 1.3 3.8 0 5.3-3.2 6.5-6.2 6.8.5.4.8 1.2.8 2.3v3.4c0 .3.2.8.8.6 4.7-1.6 8.1-6.1 8.1-11.4C24 5.4 18.6 0 12 0z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">
+              <path fill="currentColor"
+                d="M12 0C5.4 0 0 5.4 0 12c0 5.3 3.4 9.8 8.1 11.4.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.5-1.4-1.2-1.8-1.2-1.8-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1.9 1.5 2.3 1.1 2.9.9.1-.7.4-1.1.8-1.4-3-.3-6.2-1.5-6.2-6.8 0-1.5.5-2.8 1.3-3.8-.1-.3-.6-1.8.1-3.8 0 0 1.2-.4 3.9 1.5 1.1-.3 2.3-.5 3.5-.5s2.4.2 3.5.5c2.7-1.9 3.9-1.5 3.9-1.5.7 2 .3 3.5.1 3.8.8 1 1.3 2.3 1.3 3.8 0 5.3-3.2 6.5-6.2 6.8.5.4.8 1.2.8 2.3v3.4c0 .3.2.8.8.6 4.7-1.6 8.1-6.1 8.1-11.4C24 5.4 18.6 0 12 0z" />
 
             </svg>
           </a>
           <a href="https://www.linkedin.com/in/edikan-odokwo-7497b3269" target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">
-              <path fill="currentColor" d="M19.825 0H4.167C1.867 0 0 1.867 0 4.167v15.658C0 22.133 1.867 24 4.167 24H19.83c2.3 0 4.17-1.867 4.17-4.175V4.167C24 1.867 22.133 0 19.833 0zm-7.675 20.818h-3.3v-9.498h3.3v9.498zm-1.65-10.933a2.337 2.337 0 11-2.335-2.338 2.333 2.333 0 012.335 2.338zM20.818 20.82h-3.3v-5.32c0-1.3-.026-2.977-1.817-2.977-1.823 0-2.102 1.426-2.102 2.898v5.399h-3.3v-9.498h3.183v1.225h.044c.445-.845 1.533-1.738 3.157-1.738 3.386 0 4.02 2.232 4.02 5.137v5.874z"/>
+              <path fill="currentColor"
+                d="M19.825 0H4.167C1.867 0 0 1.867 0 4.167v15.658C0 22.133 1.867 24 4.167 24H19.83c2.3 0 4.17-1.867 4.17-4.175V4.167C24 1.867 22.133 0 19.833 0zm-7.675 20.818h-3.3v-9.498h3.3v9.498zm-1.65-10.933a2.337 2.337 0 11-2.335-2.338 2.333 2.333 0 012.335 2.338zM20.818 20.82h-3.3v-5.32c0-1.3-.026-2.977-1.817-2.977-1.823 0-2.102 1.426-2.102 2.898v5.399h-3.3v-9.498h3.183v1.225h.044c.445-.845 1.533-1.738 3.157-1.738 3.386 0 4.02 2.232 4.02 5.137v5.874z" />
             </svg>
-          
+
           </a>
-          
-        
-        
+
+
+
         </aside>
-       
-       </header>
-       
-       <span class="copyright"
-        >©2023
-        Odokwo Edikan. All rights reserved.</span>
-   </section>
 
-      <section class="about_page">
-        <h3>Developer</h3>
-        <p>Name : Edikan Odokwo (Pokah)</p>
-<div class="onlarge-screen">
-  
-          <article id="biography" class="biography">
-            <h3>ABOUT</h3>
-            <p>
-            The name Edikan actually refers to Victor hence, the reason why many people address me either as Edikan or Victora although most of my friends and colleagues prefer to call ms Pokah. <br>
-            I earned my degree as an International Relations Diplomat from the prestigious University of Uyo in Akwa Ibom State. Despite my academic background, my true passion lies in the world of technology.
-            <br>I discovered my fervent interest in the tech community along the way, prompting me to seek further knowledge in this field. Currently, I'm dedicated to becoming a Front End Developer and am undergoing training at ALTSchool Africa, a renowned institution in the tech industry.
-              aspiring Front End Developer currently undergoing trainig at ALTSchool Africa, a leading force in Tech Industry.
-              My journey is fueled by unwavering resilience, tireless work ethic, and unmatched focus. I am committed to transforming my dreams into reality and making a positive impact in the ever-evolving digital landscape.
-            </p>
-            <hr>
-          </article >
-          <article class="why_i_joined" id="why_i_joined">
-            <h3>WHY I JOINED</h3>
-            <p>AltSchool Africa is one community that keeps grooming and bringing the best Tech-savys into the global community.
-              I joined Altschool Africa because of my quest and passion for
-              technological advancement. I want to play a pivotal role in
-              advanciing the tech ecosystem and I confidently believe that Altschool is that ladder that will push me to the global limelight. <br>
-              I am a problem solver with strong passion and drive for growth and a
-              better society, I equally want to change the status quo and make a
-              living for myslf and my family at large.
-            </p>
-  
-            <p>
-              I am equally in Altschool Africa because I believe in the capability
-              of the school to deliver an excellent services. Altschool Africa is
-              visionary movement and it will be a pleasure to equally contribute to
-              it. I have set a target for myself and I am ready and willing to give
-              my very best to become the best version of myself.
-            </p>
-            <hr>
-            <h3 id="my_goals">MY GOALS</h3>
-            <p>
-              My goal for Altschool Africa is to becoame a major brand ambassador for the company that will help promote the image. I want to be major dedicated and committed student of the school that will in the long-run stand as a reference point. I want my sucess story to be heard , i want to contribute greatly to the advancement of the Altschool society.
-            </p>
-            <p>I intend to utilize every single opportunity i get in the cause of my interaction with the community. <br> However, I will like to use this same medium to ecourage the youths to signup to Altschool program today, the importance and contribution of the school to the global market cannot be overemphasized. </p>
-  
-          </article>
-</div>
+      </header>
 
+
+    </section>
+
+    <sectio class="about_page">
+
+      <div class="onlarge-screen">
+
+        <article id="bio" class="biography">
+          <h2>Bio</h2>
+          <p>Edikan Odokwo is a frontend software developer passionate about building impactful digital solutions that
+            enhance user experiences and accessibility. With a diploma in Software Engineering from ALT School Africa,
+            he specializes in JavaScript frameworks such as Next-Ss, React, Vue, and TypeScript. He also has a strong
+            foundation in data tools and Microsoft packages, allowing him to work effectively in diverse technical
+            environments. <br>
+            He has built and contributed to several meaningful projects, including Chatter, a publishing platform
+            similar to Hashnode and Medium, developed with Next.js and TypeScript. He also collaborated with a team of
+            young innovators to build Tranquis, a platform designed to support individuals dealing with depression and
+            mental health challenges by connecting them with medical practitioners for therapy sessions. Currently, he
+            is working on Lera, developing the website for a consulting firm.
+            <br>Beyond software development, Edikan has gained experience in sales and logistics, having worked at ABC
+            Logistics, where he started as a sales representative and was later promoted to Supervisor for International
+            Courier Operations. This background has sharpened his communication, problem-solving, and leadership skills.
+          </p>
+          <p>
+            With a strong passion for continuous learning and innovation, Edikan Odokwo is committed to building
+            technology-driven solutions while leveraging his diverse expertise to drive impactful change.
+          </p>
+          <hr>
+        </article>
+        <article class="portfolio" id="portfolio">
+          <h2>Portfolio</h2>
+          <section class="experience">
+            <h4>Frontend Developer</h4>
+            <p><strong>Freelance | 2023 – Present</strong></p>
+            <p>
+              Built and deployed <strong>Chatter</strong>, a publishing platform similar to Hashnode and Medium, using
+              Next.js and TypeScript.<br>
+              Collaborated on <strong>Tranquis</strong>, a mental health support platform connecting users with medical
+              practitioners for therapy sessions.<br>
+              Currently developing <strong>Lera</strong>, a consulting firm’s website to improve digital presence.<br>
+              Experienced in JavaScript frameworks (React, Vue, Next.js, Nuxt.js, TypeScript) and data tools.
+            </p>
+
+          </section>
+          <section class="experience">
+            <h4>Sales & Logistics Supervisor</h4>
+            <p><strong>ABC Logistics | 2021 – 2024</strong></p>
+            <p>
+              Started as a sales representative, later promoted to Supervisor for International Courier Operations.<br>
+              Managed logistics and client relationships, developing strong problem-solving, leadership, and communication skills.
+            </p>
+          </section>
+          
+          <section class="summary">
+            <h3>Summary</h3>
+            <p>Proficient in building user-friendly and scalable web applications using JavaScript frameworks like Next.js, React, Vue, and TypeScript.</p>
+            <p>Experienced in developing and collaborating on impactful projects, including <strong>Chatter</strong> and <strong>Tranquis</strong>.</p>
+            <p>Skilled in data tools and Microsoft packages, with a background in sales and logistics, enhancing communication and leadership abilities.</p>
+            <p>Passionate about creating technology-driven solutions that improve user experience, accessibility, and business growth.</p>
+          </section>
+          <hr>
+
+        </article>
+        <article class="portfolio" id="elevator-speech">
+          <h2>Elevator Speech</h2>
+          <p>
+            Hi, my name is Edikan Odokwo . I’m a software developer with a strong foundation in building digital
+            products and a recent diploma in Software Engineering from ALT School Africa. I specialize in JavaScript and
+            frameworks like React, Vue, and Next.js, alongside a solid grasp of data tools and Microsoft packages.
+            What sets me apart is my ability to create efficient, user-friendly solutions while adapting to evolving
+            technologies. I bring value by developing scalable, well-structured applications that enhance user
+            experience and business performance.
+            If you're looking for a developer who blends technical expertise with practical problem-solving, let’s
+            connect and build something impactful. <br>
+
+            Thank you for your time; I look forward to connecting!
+
+
+          </p>
+          <iframe src="" frameborder="0"></iframe>
+          <hr>
+        </article>
+      </div>
+      <span class="copyright">
+        ©<span id="year"></span> Odokwo Edikan. All rights reserved.
+      </span>
       </section>
 
       <div class="details-section">
-      <details> 
-        <summary> About</summary>
-          <p>The name Edikan actually refers to Victor hence, the reason why many people address me either as Edikan or Victora although most of my friends and colleagues prefer to call ms Pokah. <br>
-        I earned my degree as an International Relations Diplomat from the prestigious University of Uyo in Akwa Ibom State. Despite my academic background, my true passion lies in the world of technology. 
-        <br>I discovered my fervent interest in the tech community along the way, prompting me to seek further knowledge in this field. Currently, I'm dedicated to becoming a Front End Developer and am undergoing training at ALTSchool Africa, a renowned institution in the tech industry.
-          aspiring Front End Developer currently undergoing trainig at ALTSchool Africa, a leading force in Tech Industry. 
-          My journey is fueled by unwavering resilience, tireless work ethic, and unmatched focus. I am committed to transforming my dreams into reality and making a positive impact in the ever-evolving digital landscape.</p>
-      </details>
+        <details>
+          <summary>Bio</summary>
+
+          <p>Edikan Odokwo is a frontend software developer passionate about building impactful digital solutions that
+            enhance user experiences and accessibility. With a diploma in Software Engineering from ALT School Africa,
+            he
+            specializes in JavaScript frameworks such as Next-Ss, React, Vue, and TypeScript. He also has a strong
+            foundation in data tools and Microsoft packages, allowing him to work effectively in diverse technical
+            environments. <br>
+            He has built and contributed to several meaningful projects, including Chatter, a publishing platform
+            similar
+            to Hashnode and Medium, developed with Next.js and TypeScript. He also collaborated with a team of young
+            innovators to build Tranquis, a platform designed to support individuals dealing with depression and mental
+            health challenges by connecting them with medical practitioners for therapy sessions. Currently, he is
+            working
+            on Lera, developing the website for a consulting firm.
+            <br>Beyond software development, Edikan has gained experience in sales and logistics, having worked at ABC
+            Logistics, where he started as a sales representative and was later promoted to Supervisor for International
+            Courier Operations. This background has sharpened his communication, problem-solving, and leadership skills.
+          </p>
+          <p>
+            With a strong passion for continuous learning and innovation, Edikan Odokwo is committed to building
+            technology-driven solutions while leveraging his diverse expertise to drive impactful change.
+          </p>
+        </details>
 
 
-      <details>
-        <summary>Why i Joined</summary>
-        <p>AltSchool Africa is one community that keeps grooming and bringing the best Tech-savys into the global community.
-          I joined Altschool Africa because of my quest and passion for
-          technological advancement. I want to play a pivotal role in
-          advanciing the tech ecosystem and I confidently believe that Altschool is that ladder that will push me to the global limelight. <br>
-          I am a problem solver with strong passion and drive for growth and a
-          better society, I equally want to change the status quo and make a
-          living for myslf and my family at large.
-        </p>
-        <p>
-          I am equally in Altschool Africa because I believe in the capability
-          of the school to deliver an excellent services. Altschool Africa is
-          visionary movement and it will be a pleasure to equally contribute to
-          it. I have set a target for myself and I am ready and willing to give
-          my very best to become the best version of myself.
-        </p>
-      </details>
-
-
-      <details>
-    <summary>My Goals</summary>
-    <p>My goal for Altschool Africa is to becoame a major brand ambassador for the company that will help promote the image. I want to be major dedicated and committed student of the school that will in the long-run stand as a reference point. I want my sucess story to be heard , i want to contribute greatly to the advancement of the Altschool society.
-    </p>
-    <p>I intend to utilize every single opportunity i get in the cause of my interaction with the community. <br> However, I will like to use this same medium to ecourage the youths to signup to Altschool program today, the importance and contribution of the school to the global market cannot be overemphasized.</p>
-      </details> 
-
-
-      <details>
-      <summary>Goals</summary>
-        <p>
-          My goal for Altschool Africa is to becoame a major brand ambassador for the company that will help promote the image. I want to be major dedicated and committed student of the school that will in the long-run stand as a reference point. I want my sucess story to be heard , i want to contribute greatly to the advancement of the Altschool society.
-        </p>
-        <p>I intend to utilize every single opportunity i get in the cause of my interaction with the community. <br> However, I will like to use this same medium to ecourage the youths to signup to Altschool program today, the importance and contribution of the school to the global market cannot be overemphasized. </p>
-      </details>
-    </div>
-      <footer>
-
-        <p class="signup" id="signup">
-          For more information and registration,
-          <a href="/form_signup_link/index.html" target="_blank"
-            >Click on this Link</a> to Signup
-        </p>
+        <details>
+          <summary>Portfolio</summary>
+          <h4>Frontend Developer</h4>
+            <p><strong>Freelance | 2023 – Present</strong></p>
+            <p>
+              Built and deployed <strong>Chatter</strong>, a publishing platform similar to Hashnode and Medium, using
+              Next.js and TypeScript.<br>
+              Collaborated on <strong>Tranquis</strong>, a mental health support platform connecting users with medical
+              practitioners for therapy sessions.<br>
+              Currently developing <strong>Lera</strong>, a consulting firm’s website to improve digital presence.<br>
+              Experienced in JavaScript frameworks (React, Vue, Next.js, Nuxt.js, TypeScript) and data tools.
+            </p>
+            <section class="experience">
+              <h4>Sales & Logistics Supervisor</h4>
+              <p><strong>ABC Logistics | 2021 – 2024</strong></p>
+              <p>
+                Started as a sales representative, later promoted to Supervisor for International Courier Operations.<br>
+                Managed logistics and client relationships, developing strong problem-solving, leadership, and communication skills.
+              </p>
+            </section>
+            
+            <section class="summary">
+              <h3>Summary</h3>
+              <p>Proficient in building user-friendly and scalable web applications using JavaScript frameworks like Next.js, React, Vue, and TypeScript.</p>
+              <p>Experienced in developing and collaborating on impactful projects, including <strong>Chatter</strong> and <strong>Tranquis</strong>.</p>
+              <p>Skilled in data tools and Microsoft packages, with a background in sales and logistics, enhancing communication and leadership abilities.</p>
+              <p>Passionate about creating technology-driven solutions that improve user experience, accessibility, and business growth.</p>
+            </section>
           
-       <p class="small-screen">©2023
-       Odokwo Edikan. All rights reserved.</s>
-      </footer>
-    </section>
+        </details>
 
-    </main> 
-   </body>
- </html>
+
+        <details>
+          <summary>Elevator Speech</summary>
+          <p>
+            Hi, my name is Edikan Odokwo . I’m a software developer with a strong foundation in building digital
+            products and a recent diploma in Software Engineering from ALT School Africa. I specialize in JavaScript and
+            frameworks like React, Vue, and Next.js, alongside a solid grasp of data tools and Microsoft packages.
+            What sets me apart is my ability to create efficient, user-friendly solutions while adapting to evolving
+            technologies. I bring value by developing scalable, well-structured applications that enhance user
+            experience and business performance.
+            If you're looking for a developer who blends technical expertise with practical problem-solving, let’s
+            connect and build something impactful. <br>
+
+            Thank you for your time; I look forward to connecting!
+          </p>
+
+        </details>
+      </div>
+      <footer>
+        <span class="small-screen"> ©<span id="year"></span> Odokwo Edikan. All rights reserved.
+        </span></sp>
+      </footer>
+      </section>
+
+  </main>
+
+</body>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</html>
