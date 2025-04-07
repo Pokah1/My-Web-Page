@@ -3,10 +3,14 @@
   background-color: rgb(20, 20, 41);
   margin: 0;
   padding: 0;
+  
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
 }
 
 main {
@@ -22,53 +26,66 @@ main {
   right: 60%;
   left: 0;
   top: 0;
-  height: 100vh;
-
-
+  height: 100vh; 
   
 }
 
 h1 {
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-size: 3rem;
-  line-height: 55px;
+  font-style: normal;
+
   margin: 15px 0 20px 0;
   background: linear-gradient(to left, #f6fa0af5, green);
   -webkit-background-clip: text;
   color: transparent;
-
-
 }
-nav ul  {
+nav ul {
   list-style: none;
+  padding:5px;
+  border: 1px solid grey;
+  border-radius: 30px 10px 30px 10px;
 }
 
 nav li {
-  margin: 20px 0;
-  letter-spacing: 1.5px;
+  line-height: 15px;
+  padding:  10px 0;
 }
 
-nav a {
-color: #fff;
-text-decoration: none;
-font-size:1.2rem;
+.nav-button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  transition: background-color 0.3s ease;
 }
-nav a:hover{
- padding: 0px 10px 0px 10px;
+
+.nav-button:hover {
+  background-color: #0056b3;
 }
+
 
 h2 {
-  color: #559259;
-    margin-bottom: 20px;
-
+  background: linear-gradient(to left, #f6fa0af5, green);
+  -webkit-background-clip: text;
+  color: transparent;
+    margin-bottom: 10px;
+    font-family: "Domine", serif;
 }
+
 h3{
   margin: 10px 0px 10px 0px;
   color: #fff;
+  font-family: "Domine", serif;
 }
 h4{
   margin-bottom: 20px;
 
-
+  font-family: "Domine", serif;
   color: #fff;
 }
 
@@ -136,7 +153,8 @@ figcaption {
   font-size: 1.5rem;
   background: linear-gradient(to left, #f6fa0af5, green);
   -webkit-background-clip: text;
-  color: transparent
+  color: transparent;
+  font-family: "Domine", serif;
 }
 span.copyright {
   color: #559259;
@@ -147,21 +165,13 @@ span.copyright {
 
 .about_page {
   margin-top: 20px;
-  padding-left: 20px;
+  padding: 20px  20px;
   border-left: 1px solid greenyellow;
   position: relative;
   left: 40%;
   width: 60%;
   top: 0;
-  text-align:justify;
-
 }
-
-
-.onlarge-screen{
-  width: 100%;
-}
-
 
 p {
   margin: 3px 0 20px 0;
@@ -175,8 +185,7 @@ p span {
   background: linear-gradient(to right, green, yellow);
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 1.1rem;
-  margin-right: 5px;
+  font-size: 1rem;
 }
 footer{
   margin: 30px;
